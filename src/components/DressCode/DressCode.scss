@@ -1,0 +1,19 @@
+@use '../../styles/index.scss' as *;
+
+.DressCode {
+  @include detailsWrapper();
+
+  &__Circle {
+    @include detailsCircle();
+    font-size: 50px;
+    z-index: 5;
+  }
+
+  &__Title {
+    text-align: center;
+  }
+
+  &__Container {
+    @include detailsContainer();
+  }
+}

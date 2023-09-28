@@ -1,0 +1,31 @@
+@use '../../styles/index.scss' as *;
+
+.Gifts {
+  @include detailsWrapper();
+
+  &__Circle {
+    @include detailsCircle();
+    font-size: 50px;
+    z-index: 5;
+  }
+
+  &__Title {
+    text-align: center;
+  }
+
+  &__Orchid {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  &__Container {
+    @include detailsContainer();
+
+    &__Details {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+}
