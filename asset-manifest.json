@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/my-invitation/static/css/main.2fb55bb0.css",
-    "main.js": "/my-invitation/static/js/main.76da4e78.js",
+    "main.css": "/my-invitation/static/css/main.868a9efd.css",
+    "main.js": "/my-invitation/static/js/main.d9bdbcaf.js",
     "static/js/787.718d6eef.chunk.js": "/my-invitation/static/js/787.718d6eef.chunk.js",
+    "static/media/bag.png": "/my-invitation/static/media/bag.be8d350d1c831e64e0f7.png",
     "static/media/photo.png": "/my-invitation/static/media/photo.09cf2aba55afc352d88a.png",
     "static/media/ballons.png": "/my-invitation/static/media/ballons.2115d272bbf406a7dedd.png",
     "static/media/no-orchid.png": "/my-invitation/static/media/no-orchid.60062f486830466074f1.png",
+    "static/media/certificate.png": "/my-invitation/static/media/certificate.41941b0506aa5f201d0d.png",
     "index.html": "/my-invitation/index.html",
-    "main.2fb55bb0.css.map": "/my-invitation/static/css/main.2fb55bb0.css.map",
-    "main.76da4e78.js.map": "/my-invitation/static/js/main.76da4e78.js.map",
+    "main.868a9efd.css.map": "/my-invitation/static/css/main.868a9efd.css.map",
+    "main.d9bdbcaf.js.map": "/my-invitation/static/js/main.d9bdbcaf.js.map",
     "787.718d6eef.chunk.js.map": "/my-invitation/static/js/787.718d6eef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fb55bb0.css",
-    "static/js/main.76da4e78.js"
+    "static/css/main.868a9efd.css",
+    "static/js/main.d9bdbcaf.js"
   ]
 }
