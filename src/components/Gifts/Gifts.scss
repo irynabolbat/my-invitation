@@ -28,4 +28,48 @@
       align-items: center;
     }
   }
+
+  &__WishList {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+
+  &__WishListItem {
+    background: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    a {
+      display: block;
+      font-weight: 600;
+      color: #ee4097;
+      margin-bottom: 10px;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    img {
+      margin-top: 10px;
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+  }
 }

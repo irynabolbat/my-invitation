@@ -22,18 +22,18 @@ export const InvitationPage = () =>  {
           <h1 
             className='InvitationPage__Container__Title'
           >
-            Запрошення на вечірку "Sweet 25"
+            Запрошення на вечірку "Sweet 27"
           </h1>
 
             <ul className='InvitationPage__Container__InfoList'>
               <li className='InvitationPage__Container__InfoList--item'>
-                  Коли?📆 - 7 жовтня (СБ)
+                  Коли?📆 - 3 жовтня (ПТ)
               </li>
               <li className='InvitationPage__Container__InfoList--item'>
-                  О котрій?🕖 - час вечірнього вигулу собак (18:00)
+                  О котрій?🕖 - 19:00 - до ранку
               </li>
               <li className='InvitationPage__Container__InfoList--item'>
-                  Де?🏠 - корхіна оселя на 48-му
+                  Де? - 🏠
               </li>
             </ul>
             

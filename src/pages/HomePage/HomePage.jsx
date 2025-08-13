@@ -9,7 +9,7 @@ export const HomePage = () =>  {
       <div className='CircleWrapper'>
         <div className="Circle">
           <button className="Circle__Button" onClick={() => navigation('/invitation')}>
-            <h1 className="Circle__Title">Sweet 25</h1>
+            <h1 className="Circle__Title">Sweet 27</h1>
           </button>
         </div>
       </div>
