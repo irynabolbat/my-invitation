@@ -1,4 +1,4 @@
-@use '../../styles/index.scss' as *;
+@use "../../styles/index.scss" as *;
 
 .DressCode {
   @include detailsWrapper();
@@ -15,5 +15,27 @@
 
   &__Container {
     @include detailsContainer();
+  }
+
+  &__Pets {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+
+  &__PetsItem {
+    border-radius: 15px;
+    width: 45%;
+
+    img {
+      margin-top: 10px;
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
   }
 }

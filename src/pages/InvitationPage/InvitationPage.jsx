@@ -33,7 +33,7 @@ export const InvitationPage = () =>  {
                   О котрій?🕖 - 19:00 - до ранку
               </li>
               <li className='InvitationPage__Container__InfoList--item'>
-                  Де? - 🏠
+                  Де? - 🏠 (в репозиторії світити адресу не буду, тому шукайте в повідомленні)
               </li>
             </ul>
             
